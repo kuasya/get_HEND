@@ -47,18 +47,16 @@
 
 Пример входных данных:
 https://gcn.gsfc.nasa.gov/gcn3/21247.gcn3
-https://gcn.gsfc.nasa.gov/gcn3/21630.gcn3
-https://gcn.gsfc.nasa.gov/gcn3/11441.gcn3
-https://gcn.gsfc.nasa.gov/gcn3/11439.gcn3
-https://gcn.gsfc.nasa.gov/gcn3/11350.gcn3
-https://gcn.gsfc.nasa.gov/gcn3/11127.gcn3
-https://gcn.gsfc.nasa.gov/gcn3/11119.gcn3
 
-Например, из такой строчки в файле:
+https://gcn.gsfc.nasa.gov/gcn3/21630.gcn3
+
+
+Пример работы парсера:
+Из следующей строчки в файле:
 The burst light curve starts with a short (~1.5 s) pulse,
 followed by a weaker pulse at ~T0+55 s (with a duration of ~6 s).
 Надо получить в таблицу: +55. 
-Отсюда: ~T0(BAT)+478.8 s, надо: (BAT)+478.8 и т.д. 
+Аналогично из строки: ~T0(BAT)+478.8 s, надо выделить: (BAT)+478.8 и т.д. 
 (пример, как надо — во вложении) 
 
 ## расчет отклонения во времени
